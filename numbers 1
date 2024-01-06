@@ -1,0 +1,32 @@
+# Ask the user to enter three different integers and save them in variables called num1, num2, and num3
+# Convert the input from strings to integers using the int() function
+# Calculate the sum of all three numbers and print it out
+# Calculate the first number minus the second number and print it out
+# Calculate the third number multiplied by the first number and print it out
+# Calculate the sum of all three numbers divided by the third number and print it out
+
+# Ask the user to enter three different integers and save them in variables called num1, num2, and num3
+num1 = input("Please enter the first number: ")
+num2 = input("Please enter the second number: ")
+num3 = input("Please enter the third number: ")
+
+# Convert the input from strings to integers using the int() function
+num1 = int(num1)
+num2 = int(num2)
+num3 = int(num3)
+
+# Calculate the sum of all three numbers and print it out
+sum = num1 + num2 + num3
+print("Sum of all numbers:", sum)
+
+# Calculate the first number minus the second number and print it out
+diff = num1 - num2
+print("First number minus second number:", diff)
+
+# Calculate the third number multiplied by the first number and print it out
+prod = num3 * num1
+print("Third number multiplied by first number:", prod)
+
+# Calculate the sum of all three numbers divided by the third number and print it out
+quot = sum / num3
+print("Sum of all numbers divided by third number:", quot)
