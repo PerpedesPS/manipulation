@@ -1,0 +1,27 @@
+# Save the sentence "The!quick!brown!fox!jumps!over!the!lazy!dog." as a single string
+# Use the replace() function to replace every exclamation point with a space
+# Print out the new sentence
+# Use the upper() function to convert the sentence to uppercase
+# Print out the new sentence
+# Use slicing to print out the sentence in reverse order
+
+# Save the sentence "The!quick!brown!fox!jumps!over!the!lazy!dog." as a single string
+sentence = "The!quick!brown!fox!jumps!over!the!lazy!dog."
+
+# Use the replace() function to replace every exclamation point with a space
+new_sentence = sentence.replace("!", " ")
+
+# Print out the new sentence
+print(new_sentence)
+
+# Use the upper() function to convert the sentence to uppercase
+upper_sentence = new_sentence.upper()
+
+# Print out the new sentence
+print(upper_sentence)
+
+# Use slicing to print out the sentence in reverse order
+reverse_sentence = sentence[::-1]
+
+# Print out the new sentence
+print(reverse_sentence)
