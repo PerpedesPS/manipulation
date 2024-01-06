@@ -1,0 +1,28 @@
+# Ask the user to enter a sentence using the input() method and save it in a variable called str_manip
+# Calculate the length of str_manip and print it out
+# Find the last letter in str_manip and save it in a new variable called last_letter
+# Replace every occurrence of last_letter in str_manip with '@' and print out the new sentence
+# Extract the last 3 characters in str_manip and reverse them, then print out the result
+# Create a new five-letter word using the first three characters and the last two characters of str_manip, then print it out
+
+# Ask the user to enter a sentence using the input() method and save it in a variable called str_manip
+str_manip = input("Please enter a sentence: ")
+
+# Calculate the length of str_manip and print it out
+length = len(str_manip)
+print("Length of sentence:", length)
+
+# Find the last letter in str_manip and save it in a new variable called last_letter
+last_letter = str_manip[-1]
+
+# Replace every occurrence of last_letter in str_manip with '@' and print out the new sentence
+new_sentence = str_manip.replace(last_letter, '@')
+print("New sentence:", new_sentence)
+
+# Extract the last 3 characters in str_manip and reverse them, then print out the result
+last_3 = str_manip[-3:][::-1]
+print("Last 3 characters reversed:", last_3)
+
+# Create a new five-letter word using the first three characters and the last two characters of str_manip, then print it out
+new_word = str_manip[:3] + str_manip[-2:]
+print("New word:", new_word)
