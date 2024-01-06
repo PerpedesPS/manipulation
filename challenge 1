@@ -1,0 +1,21 @@
+# Import the math module to use the sqrt() function
+import math
+
+# Ask the user to enter the lengths of all three sides of a triangle and save them in variables called side1, side2, and side3
+side1 = input("Please enter the length of the first side: ")
+side2 = input("Please enter the length of the second side: ")
+side3 = input("Please enter the length of the third side: ")
+
+# Convert the input from strings to floats using the float() function
+side1 = float(side1)
+side2 = float(side2)
+side3 = float(side3)
+
+# Calculate the semi-perimeter (s) of the triangle using the formula (side1 + side2 + side3) / 2
+s = (side1 + side2 + side3) / 2
+
+# Calculate the area of the triangle using the formula sqrt(s(s-side1)(s-side2)(s-side3))
+area = math.sqrt(s * (s - side1) * (s - side2) * (s - side3))
+
+# Print out the area of the triangle
+print("The area of the triangle is:", area)
