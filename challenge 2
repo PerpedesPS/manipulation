@@ -1,0 +1,14 @@
+# Take the name of the user's favourite restaurant and store it in a variable called string_fav
+string_fav = input("Please enter your favourite restaurant: ")
+
+# Take in the user's favourite number and store it in an integer variable called int_fav
+int_fav = int(input("Please enter your favourite number: "))
+
+# Print out the name of the favourite restaurant and favourite number
+print("Your favourite restaurant is:", string_fav)
+print("Your favourite number is:", int_fav)
+
+# Try to cast string_fav to an integer
+int(string_fav)  # This will produce a ValueError
+
+# In the line above, a ValueError will be raised because the value of string_fav is a string that represents the name of the user's favourite restaurant, not a valid integer. Therefore, it cannot be cast into an integer.
